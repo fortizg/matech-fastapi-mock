@@ -18,7 +18,7 @@ This project is a simple mock server built using FastAPI. It simulates API endpo
 1. Clone the repository:
 
    ```
-   git clone https://github.com/yourusername/fastapi-mock-server.git
+   git clone https://github.com/fortizg/fastapi-mock-server.git
    cd fastapi-mock-server
    ```
 
@@ -66,6 +66,16 @@ docker-compose up
 - `GET /api/users/{user_id}`: Retrieve a specific user
 
 For detailed API documentation, visit `http://localhost:8000/docs` after starting the server.
+
+## Running Tests
+
+To run the tests for this project:
+
+```
+pytest
+```
+
+This will run all the tests defined in the `test_app.py` file.
 
 ## Development
 
